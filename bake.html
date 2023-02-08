@@ -24,11 +24,6 @@
       background-size: cover;
       position: relative;
     }
-
-    .card .card-header {
-      background-color: white;
-      border-bottom: 1px solid orange;
-    }
   </style>
 </head>
 
@@ -39,7 +34,7 @@
         <i class="fa fa-home float-start" style="font-size:36px;color:#cc7a00;"></i>
       </div>
       <div class="col-6">
-        <img class="clear-fix img-responsive" alt="#" src="img/logo2.png" style="width: 80%; margin: 0%; padding: 0%;">
+        <img class="clear-fix img-responsive" alt="#" src="img/logo2.png" style="width: 90%; margin: 0%; padding: 0%;">
       </div>
       <div class="col-3" onclick="openNav()">
         <i class="fa fa-bars float-end" style="font-size:36px;color:#cc7a00;"></i>
@@ -53,7 +48,7 @@
 </div>-->
   </nav>
   <div id="mySidenav" class="sidenav">
-    <img class="clear-fix img-responsive" alt="#" src="img/logo2.png" style="width: 100%; margin: 0%; padding: 0%;">
+    <img class="clear-fix img-responsive" alt="#" src="img/logo1.png" style="width: 100%; margin: 0%; padding: 0%;">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
     <a href="#">About</a>
     <a href="#">Services</a>
@@ -61,12 +56,12 @@
     <a href="#">Contact</a>
   </div>
   <!-- Carousel -->
-  <div id="lorem" class="carousel slide" data-bs-ride="carousel">
+  <div id="demo" class="carousel slide" data-bs-ride="carousel">
     <!-- Indicators/dots -->
     <div class="carousel-indicators">
-      <button type="button" data-bs-target="#lorem" data-bs-slide-to="0" class="active"></button>
-      <button type="button" data-bs-target="#lorem" data-bs-slide-to="1"></button>
-      <button type="button" data-bs-target="#lorem" data-bs-slide-to="2"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
     </div>
     <!-- The slideshow/carousel -->
     <div class="carousel-inner">
@@ -81,77 +76,65 @@
         <img src="img/pie1.jpg" alt="Chicago" class="d-block w-100">
         <div class="carousel-caption">
           <h3>Cinna-Pie</h3>
-          <p>A must try for cannamon lovers.</p>
+          <p>That rare occasion when you don't really need a reason why, try.</p>
         </div>
       </div>
       <div class="carousel-item">
         <img src="img/tea1.jpg" alt="New York" class="d-block w-100">
         <div class="carousel-caption">
           <h3>Cinna-Tea</h3>
-          <p>Tasty, Calming, Amazing. Simply put, its just great tea.</p>
+          <p>Tasty, Calming, ...Wise. Simply, its just the right thing to do.</p>
         </div>
       </div>
     </div>
     <!-- Left and right controls/icons -->
-    <button class="carousel-control-prev" type="button" data-bs-target="#lorem" data-bs-slide="prev">
+    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
       <span class="carousel-control-prev-icon"></span>
     </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#lorem" data-bs-slide="next">
+    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
       <span class="carousel-control-next-icon"></span>
     </button>
   </div>
   <div class="container-fluid">
-    <div class="row text-center">
-      <div class="col-2">
-      </div>
-      <div class="col-8">
-        <div class="bg-tp-card card">
-          <div class="card-header">
-            <i class='fas fa-couch h22' style='font-size:48px;color:orange; text-shadow: 2px 2px 4px grey;'></i>
-            <h2 class="#">Welcome</h2>
-          </div>
-          <div class="card-body">
-            <p class="text-center">Dedicated to all Cinna-Lovers out there who, well, just love Cinnamon. So please enjoy.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-2">
-      </div>
+    <div class="jumbotron">
+      <h1 class="text-center">Cinnamon Goodies</h1>
     </div>
-    <!--row-->
-    <div class="row">
-      <div class="col-sm-4 col-md-4 col-lg-4">
-        <div class="c1 card" style="width:100%;">
-          <img class="card-img-top" src="img/tea2.jpg" alt="Card image">
-          <div class="card-img-overlay">
-            <h4 class="card-title">Cinna-Tea</h4>
-            <p class="card-text">Soothing cinnamon tea for every personali-tea.</p>
-            <a href="tea.html" class="btn btn-outline-warning">Explore</a>
+    <div class="jumbotron">
+      <div class="row">
+        <div class="col-sm-4 col-md-4 col-lg-4">
+          <div class="c1 card" style="width:100%;">
+            <img class="card-img-top" src="img/tea2.jpg" alt="Card image">
+            <div class="card-img">
+              <h4 class="card-title">Cinna-Buns</h4>
+              <p class="card-text">Nothing much to say, just, WOW!</p>
+              <a href="https://m.youtube.com/watch?v=_Q0FYoCl4Cs" class="btn btn-outline-warning">Let's Bake Some</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4 col-md-4 col-lg-4">
+          <div class="c2 card" style="width:100%;">
+            <img class="card-img-top" src="img/cookies1.jpg" alt="Card image">
+            <div class="card-img">
+              <h4 class="card-title">Cinna-Cookies</h4>
+              <p class="card-text">These are priceless.</p>
+              <a href="#" class="btn btn-outline-warning">Lets Bake</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4 col-md-4 col-lg-4">
+          <div class="c3 card" style="width:100%;">
+            <img class="card-img-top" src="img/powder1.jpg" alt="Card image">
+            <div class="card-img">
+              <h4 class="card-title">Cinna-Cake</h4>
+              <p class="card-text">Best cakes ever.</p>
+              <a href="#" class="btn btn-outline-warning">Let's Eat</a>
+            </div>
           </div>
         </div>
       </div>
-      <div class="col-sm-4 col-md-4 col-lg-4">
-        <div class="c2 card" style="width:100%;">
-          <img class="card-img-top" src="img/cookies1.jpg" alt="Card image">
-          <div class="card-img-overlay">
-            <h4 class="card-title">Cinna-Treats</h4>
-            <p class="card-text">Buns, cakes, pastries, and more. Oven treats for all to eat..</p>
-            <a href="bake.html" class="btn btn-outline-warning">Explore</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-4 col-md-4 col-lg-4">
-        <div class="c3 card" style="width:100%;">
-          <img class="card-img-top" src="img/powder1.jpg" alt="Card image">
-          <div class="card-img-overlay">
-            <h4 class="card-title">Cinna-Things</h4>
-            <p class="card-text">Collectibles and things from the cinnamon tree.</p>
-            <a href="#" class="btn btn-outline-warning">Explore</a>
-          </div>
-        </div>
-      </div>
+      <!--row-->
     </div>
-    <!--row-->
+    <!--jum-->
   </div>
   <!--container-->
   <footer class="#">
@@ -183,15 +166,12 @@
           <li>Photo by: <a href="https://unsplash.com/photos/y7iHZ4nY63s?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink" class="#">Mockup Graphics</a> on Unsplash</li>
           <li>Photo by: <a href="https://unsplash.com/photos/toUmtRwoWCA?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink" class="#">Eve Maier</a> on Unsplash</li>
           <li>Photo by: <a href="https://unsplash.com/photos/dZKiXR9FYcM?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink" class="#">Food Photographer | Jennifer Pallian</a> on Unsplash</li>
-          <li>Photo by: <a href="https://unsplash.com/photos/aGAyUet5EOQ?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink" class="#">Anna Teodoro</a> on lorem</li>
+          <li>Photo by: <a href="https://unsplash.com/photos/aGAyUet5EOQ?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink" class="#">Anna Teodoro</a> on demo</li>
           <li>Photo by: <a href="https://unsplash.com/photos/mr_Tg4SI66A" class="#">Joanna Kosinska</a> on Unsplash</li>
-          <li>Photo by: <a href="lorem" class="https://www.pexels.com/photo/cup-of-tea-near-cinnamon-roll-7332878/">Evgeniy Alekseyev</a> on Pexels</li>
+          <li>Photo by: <a href="demo" class="https://www.pexels.com/photo/cup-of-tea-near-cinnamon-roll-7332878/">Evgeniy Alekseyev</a> on Pexels</li>
           <li>Photo by: <a href="https://www.pexels.com/photo/peppermint-tea-on-teacup-1417945/" class="#">Mareefe</a> on Pexels</li>
           <li>Photo by: <a href="https://www.pexels.com/photo/chocolate-sticks-on-two-white-ceramic-cups-1717771/" class="#">Ngô Trọng An</a> on Pexels</li>
-          <li>Photo by: <a href="https://www.pexels.com/photo/cinnamon-drink-on-a-clear-drinking-glass-5430755/" class="#">Polina Kovaleva</a> on Pexels</li>
-          <li>Photo by: <a href="lorem" class="#">lorem</a> on lorem</li>
-          <li>Photo by: <a href="lorem" class="#">lorem</a> on lorem</li>
-          <li>Photo by: <a href="lorem" class="#">lorem</a> on lorem</li>
+          <li>Photo by: <a href="demo" class="#">demo</a> on demo</li>
         </ul>
       </div>
     </div>

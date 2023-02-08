@@ -188,9 +188,46 @@ color:white;
 	margin-top: 15%;
 }
 
+.c1, .c2, .c3 {
+	background: transparent;
+}
+
 .c1 {
 	margin-top: 10%;
 }
+
+    .card-text,
+    .card-title,
+    .btn-outline-warning {
+      margin: 5%;
+    }
+
+    .btn-outline-warning {
+      text-shadow: 0px 0px 0px #000;
+    }
+
+    blockquote {
+      color: grey;
+      border-left: 2px solid orange;
+padding-left: 5%;
+margin: 5% auto;
+    }
+
+blockquote i {
+      margin: 0%;
+      padding: 0%;
+      text-shadow: 2px 2px 4px grey;
+    }
+
+
+    blockquote p {
+      padding: 5%;
+    }
+
+    .blockquote-footer {
+      background-image: url("img/#.jpg");
+
+    }
 
 .card-img-overlay h4, .card-img-overlay p, .btn-outline-warning {
   color: white;
