@@ -5,6 +5,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Cinnamon</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comforter&family=Elsie:wght@400;900&family=Josefin+Sans&family=Princess+Sofia&family=Water+Brush&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="res/bootstrap@5.0.0-alpha2.min.css">
   <link rel="stylesheet" href="css/styles.css">
@@ -33,99 +38,14 @@
       position: relative;
     }
 
-    .sidebar {
-      position: fixed;
-      top: 0;
-      bottom: 0;
-      left: 0;
-      z-index: 100;
-      padding: 90px 0 0;
-      box-shadow: outset -1px 0 0 rgba(0, 0, 0, .1);
-      z-index: 99;
-    }
-
-    @media (max-width: 767.98px) {
-      .sidebar {
-        top: 11.5rem;
-        padding: 0;
-      }
-    }
-
-    .navbar {
-      box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .2);
-      background-color: white;
-    }
-
-    .navbar img {
-      margin: 0%;
-      width: 65%;
-    }
-
-    i {
-      margin: 10% auto;
-      text-shadow: 2px 2px 4px grey;
-    }
-
-    blockquote i {
-      margin: 0%;
-      padding: 0%;
-      text-shadow: 2px 2px 4px grey;
-    }
-
     .row {
       margin: 0 auto;
     }
 
-    h1 {
-      margin: 5%;
-    }
-
-    .container {
-      display: inline;
-      cursor: pointer;
-      margin: 0 auto;
-      padding-right: -1%;
-      text-shadow: 2px 2px 4px grey;
-      float: left;
-    }
-
-    .bar1,
-    .bar2,
-    .bar3 {
-      width: 25px;
-      height: 3px;
-      background-color: #333;
-      margin: 6px 0;
-      transition: 0.4s;
-
-    }
-
-    .change .bar1 {
-      color: red;
-      text-shadow: 2px 2px 4px grey;
-
-      transform: translate(0, 11px) rotate(-45deg);
-    }
-
-    .change .bar2 {
-      opacity: 0;
-    }
-
-    .change .bar3 {
-      transform: translate(0, -11px) rotate(45deg);
-      width: 30px;
-    }
-
-    .col-8 .bg-tp-card {
-      background: transparent;
-      border: 0px;
-      margin-top: 15%;
-    }
-
-    .card-header {
-      background: transparent;
-      border: 0px;
-    }
+  
+.c1, .c2, .c3 {
+	background: transparent;
+}
 
     .card-text,
     .card-title,
@@ -140,8 +60,16 @@
     blockquote {
       color: grey;
       border-left: 2px solid orange;
-
+padding-left: 5%;
+margin: 5% auto;
     }
+
+blockquote i {
+      margin: 0%;
+      padding: 0%;
+      text-shadow: 2px 2px 4px grey;
+    }
+
 
     blockquote p {
       padding: 5%;
@@ -152,7 +80,12 @@
 
     }
 
-    .jumbotron {}
+    .jumbotron {
+	background-color: rgba(255, 255, 255, 0.7);
+	border: 2px solid white;
+	border-radius: 3px;
+	margin: 10% auto;
+}
 
 
     @media (min-width: 767.98px) {
@@ -246,11 +179,11 @@
   </div>
   <!--container-fluid-->
   <footer class="#">
-    <br>
-    <div class="row text-center">
+<br>
+        <div class="row text-center">
       <div class="col-md-4 col-4-lg">
         <h6 class="#">Company Bio</h6>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       </div>
       <div class="col-md-4 col-4-lg">
         <h6>Connect</h6>
@@ -274,12 +207,15 @@
           <li>Photo by: <a href="https://unsplash.com/photos/y7iHZ4nY63s?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink" class="#">Mockup Graphics</a> on Unsplash</li>
           <li>Photo by: <a href="https://unsplash.com/photos/toUmtRwoWCA?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink" class="#">Eve Maier</a> on Unsplash</li>
           <li>Photo by: <a href="https://unsplash.com/photos/dZKiXR9FYcM?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink" class="#">Food Photographer | Jennifer Pallian</a> on Unsplash</li>
-          <li>Photo by: <a href="https://unsplash.com/photos/aGAyUet5EOQ?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink" class="#">Anna Teodoro</a> on demo</li>
+          <li>Photo by: <a href="https://unsplash.com/photos/aGAyUet5EOQ?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink" class="#">Anna Teodoro</a> on lorem</li>
           <li>Photo by: <a href="https://unsplash.com/photos/mr_Tg4SI66A" class="#">Joanna Kosinska</a> on Unsplash</li>
-          <li>Photo by: <a href="demo" class="#">demo</a> on demo</li>
-          <li>Photo by: <a href="demo" class="#">demo</a> on demo</li>
-          <li>Photo by: <a href="demo" class="#">demo</a> on demo</li>
-          <li>Photo by: <a href="demo" class="#">demo</a> on demo</li>
+          <li>Photo by: <a href="lorem" class="https://www.pexels.com/photo/cup-of-tea-near-cinnamon-roll-7332878/">Evgeniy Alekseyev</a> on Pexels</li>
+          <li>Photo by: <a href="https://www.pexels.com/photo/peppermint-tea-on-teacup-1417945/" class="#">Mareefe</a> on Pexels</li>
+          <li>Photo by: <a href="https://www.pexels.com/photo/chocolate-sticks-on-two-white-ceramic-cups-1717771/" class="#">Ngô Trọng An</a> on Pexels</li>
+          <li>Photo by: <a href="https://www.pexels.com/photo/cinnamon-drink-on-a-clear-drinking-glass-5430755/" class="#">Polina Kovaleva</a> on Pexels</li>
+          <li>Photo by: <a href="lorem" class="#">lorem</a> on lorem</li>
+          <li>Photo by: <a href="lorem" class="#">lorem</a> on lorem</li>
+          <li>Photo by: <a href="lorem" class="#">lorem</a> on lorem</li>
         </ul>
       </div>
     </div>
